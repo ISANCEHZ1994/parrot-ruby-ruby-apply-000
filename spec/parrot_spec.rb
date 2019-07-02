@@ -23,7 +23,7 @@ describe '#parrot' do
   end
 end
 
-def parrot(string="Squawk!")
+def parrot(string ="Squawk!")
   puts #{string}
   "#{string}"
 end
