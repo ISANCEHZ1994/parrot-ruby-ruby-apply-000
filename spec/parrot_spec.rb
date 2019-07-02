@@ -13,7 +13,7 @@ describe '#parrot' do
 
   it 'should output the given phrase when called with an argument' do
     expect($stdout).to receive(:puts).with("Pretty bird!")
-    parrot("Pretty bird!")
+    parrot("Pretty bird!") 
   end
 
   it 'should return the given phrase when called with an argument' do
@@ -23,7 +23,7 @@ describe '#parrot' do
   end
 end
 
-def parrot(arg)
+def parrot(arg="")
    puts "#{arg}"
  
 end
