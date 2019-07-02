@@ -23,8 +23,11 @@ describe '#parrot' do
   end
 end
 
-def parrot(arg="")
+def parrot(arg="Squawk!")
    puts "#{arg}"
  
 end
+
+
+
 
