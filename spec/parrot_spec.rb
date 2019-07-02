@@ -5,7 +5,7 @@ describe '#parrot' do
     expect($stdout).to receive(:puts).with("Squawk!")
     parrot
     
-   def parrot(string = "Squawk!") 
+   puts($stdout,"Squawk!") 
    
     
   end
