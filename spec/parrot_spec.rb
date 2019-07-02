@@ -23,7 +23,8 @@ describe '#parrot' do
   end
 end
 
-def sem
- #stff
+def parrot 
+  ()
+ 
 end
 
