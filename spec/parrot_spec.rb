@@ -23,8 +23,7 @@ describe '#parrot' do
   end
 end
 
-def parrot 
-  ()
+def parrot(arg)
  
 end
 
