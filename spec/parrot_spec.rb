@@ -24,5 +24,6 @@ describe '#parrot' do
 end
 
 def parrot(string="Squawk!")
-  puts #{string}+string
+  puts #{string}
+  "#{string}"
 end
