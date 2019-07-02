@@ -24,7 +24,7 @@ describe '#parrot' do
 end
 
 def parrot(arg)
-  puts "{argument}"
+  puts "{Squawk!}"
  
 end
 
